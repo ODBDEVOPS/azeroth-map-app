@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azeroth Antique - Carte Interactive Chroniques</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>📜 Azeroth Antique - Chroniques Cartographiques</h1>
+    </header>
+
+    <div id="app-container">
+
+        <div id="controls">
+            <h2>⚙️ Contrôles de Carte</h2>
+            
+            <div id="search-container" class="control-group">
+                <label for="search-input">Recherche (Nom/Région) :</label>
+                <input type="text" id="search-input" placeholder="Ex: Stormwind, Norfendre...">
+                <div id="search-results"></div>
+            </div>
+
+            <div id="filter-controls" class="control-group">
+                <h3>Filtres de Catégorie</h3>
+                </div>
+
+            <div class="control-group">
+                <h3>Navigation</h3>
+                <button id="zoom-in">+</button>
+                <button id="zoom-out">-</button>
+                <button id="reset-view">🔄 Réinitialiser</button>
+            </div>
+        </div>
+
+        <div id="map-wrapper">
+            <div id="map-container">
+                <img id="base-map" src="assets/1200px-Ordered_Azeroth.jpg" alt="Carte Géographique d'Azeroth" draggable="false">
+
+                <div id="markers-container">
+                    </div>
+
+                <div id="overlay-wrapper">
+                    <img id="overlay-map" src="assets/WoWChronicleSample-12.jpg" alt="Calque de Chroniques d'Azeroth" draggable="false">
+                    <div id="overlay-separator"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tooltip" class="hidden">
+            <h4 id="tooltip-title"></h4>
+            <p id="tooltip-desc"></p>
+            <img id="tooltip-img" src="" alt="Image associée">
+            <span id="tooltip-close">×</span>
+        </div>
+
+        <div id="overlay-controls">
+            <h2>✨ Paramètres de Calque</h2>
+            <div class="control-group slider-group">
+                <label for="opacity-slider">Opacité du Calque :</label>
+                <input type="range" id="opacity-slider" min="0" max="1" step="0.05" value="0.5">
+                <span id="opacity-value">0.5</span>
+            </div>
+            
+            <div class="control-group slider-group">
+                <label for="scale-slider">Échelle du Calque (Zoom) :</label>
+                <input type="range" id="scale-slider" min="0.8" max="1.5" step="0.01" value="1.0">
+                <span id="scale-value">1.0</span>
+            </div>
+            
+            <div class="control-group slider-group">
+                <label for="offset-x-slider">Décalage X (en %):</label>
+                <input type="range" id="offset-x-slider" min="-50" max="50" step="1" value="0">
+                <span id="offset-x-value">0%</span>
+            </div>
+            
+            <div class="control-group slider-group">
+                <label for="offset-y-slider">Décalage Y (en %):</label>
+                <input type="range" id="offset-y-slider" min="-50" max="50" step="1" value="0">
+                <span id="offset-y-value">0%</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>
