@@ -1,0 +1,146 @@
+[
+  {
+    "nom": "Tirisfal Glades",
+    "categorie": "Capitales",
+    "top": 12.5,
+    "left": 40.8,
+    "position_approx": "Royaumes de l'Est Nord",
+    "lore_desc": "Ancienne capitale de Lordaeron, aujourd'hui sous le joug des Réprouvés. Un lieu chargé d'histoire et de pestilence.",
+    "image_url": "assets/tirisfal_glades.jpg"
+  },
+  {
+    "nom": "Stormwind City",
+    "categorie": "Capitales",
+    "top": 60.2,
+    "left": 45.1,
+    "position_approx": "Royaumes de l'Est Sud",
+    "lore_desc": "La fière capitale du royaume humain de Hurlevent. Un phare de l'Alliance dans les Terres du Sud.",
+    "image_url": "assets/stormwind_city.jpg"
+  },
+  {
+    "nom": "Orgrimmar",
+    "categorie": "Capitales",
+    "top": 18.0,
+    "left": 18.5,
+    "position_approx": "Kalimdor Nord",
+    "lore_desc": "La puissante forteresse des Orcs, nommée en l'honneur d'Orgrim Marteau-du-Destin. Le cœur de la Horde.",
+    "image_url": "assets/orgrimmar.jpg"
+  },
+  {
+    "nom": "Thunder Bluff",
+    "categorie": "Capitales",
+    "top": 35.5,
+    "left": 15.0,
+    "position_approx": "Kalimdor Central",
+    "lore_desc": "La capitale des Taurens, perchée au sommet des falaises de Mulgore. Un lieu de paix et de sagesse spirituelle.",
+    "image_url": "assets/thunder_bluff.jpg"
+  },
+  {
+    "nom": "Darnassus",
+    "categorie": "Capitales",
+    "top": 6.8,
+    "left": 10.5,
+    "position_approx": "Kalimdor Nord",
+    "lore_desc": "Ancienne cité des Elfes de la Nuit, située sur l'île de Teldrassil. (Avant sa destruction par Sylvanas).",
+    "image_url": "assets/darnassus.jpg"
+  },
+  {
+    "nom": "Ironforge",
+    "categorie": "Capitales",
+    "top": 50.5,
+    "left": 49.5,
+    "position_approx": "Royaumes de l'Est Central",
+    "lore_desc": "La grande cité souterraine des Nains, creusée au cœur du Mont Barbe-de-Bronze. Un foyer de technologie et d'armurerie.",
+    "image_url": "assets/ironforge.jpg"
+  },
+  {
+    "nom": "Dalaran (Norfendre)",
+    "categorie": "Magie",
+    "top": 10.0,
+    "left": 75.0,
+    "position_approx": "Norfendre",
+    "lore_desc": "La ville flottante des Mages du Kirin Tor, déplacée en Norfendre pendant la guerre contre le Roi-Liche.",
+    "image_url": "assets/dalaran.jpg"
+  },
+  {
+    "nom": "Ulduar",
+    "categorie": "Titans",
+    "top": 15.0,
+    "left": 79.5,
+    "position_approx": "Norfendre",
+    "lore_desc": "Le grand complexe des Titans dans les Pics Foudroyés, servant de prison pour le Dieu Très Ancien Yogg-Saron.",
+    "image_url": "assets/ulduar.jpg"
+  },
+  {
+    "nom": "Un'Goro Crater",
+    "categorie": "Faune",
+    "top": 78.0,
+    "left": 18.0,
+    "position_approx": "Kalimdor Sud",
+    "lore_desc": "Un immense cratère tropical préservé, abritant des dinosaures et des éléments primitifs, créé par les Titans.",
+    "image_url": "assets/un'goro.jpg"
+  },
+  {
+    "nom": "Ahn'Qiraj",
+    "categorie": "Dieux Anciens",
+    "top": 85.0,
+    "left": 10.0,
+    "position_approx": "Kalimdor Sud",
+    "lore_desc": "L'ancienne forteresse des Qiraji, scellée après la Guerre du Scarabée. Prison de C'Thun.",
+    "image_url": "assets/ahnqiraj.jpg"
+  },
+  {
+    "nom": "Karazhan",
+    "categorie": "Magie",
+    "top": 70.0,
+    "left": 49.0,
+    "position_approx": "Royaumes de l'Est Sud",
+    "lore_desc": "La tour abandonnée du dernier Gardien de Tirisfal, Medivh. Un lieu où le temps et l'espace se confondent.",
+    "image_url": "assets/karazhan.jpg"
+  },
+  {
+    "nom": "Zul'Aman",
+    "categorie": "Trolls",
+    "top": 30.0,
+    "left": 55.0,
+    "position_approx": "Royaumes de l'Est Nord",
+    "lore_desc": "Capitale de l'Empire Troll Amani dans les Hautes-Terres d'Arathi.",
+    "image_url": "assets/zulaman.jpg"
+  },
+  {
+    "nom": "Temple Noir",
+    "categorie": "Illidan",
+    "top": 60.0,
+    "left": 30.0,
+    "position_approx": "Outreterre",
+    "lore_desc": "Ancienne citadelle draeneï devenue la forteresse d'Illidan Hurlorage en Outreterre (non visible sur la carte d'Azeroth).",
+    "image_url": "assets/temple_noir.jpg"
+  },
+  {
+    "nom": "Mont Hyjal",
+    "categorie": "Elfique",
+    "top": 8.0,
+    "left": 15.0,
+    "position_approx": "Kalimdor Nord",
+    "lore_desc": "Le lieu où l'Arbre Monde, Nordrassil, a été planté après la Guerre des Anciens. Un site d'importance cosmique.",
+    "image_url": "assets/mont_hyjal.jpg"
+  },
+  {
+    "nom": "Forge des Titans",
+    "categorie": "Titans",
+    "top": 90.0,
+    "left": 25.0,
+    "position_approx": "Kalimdor Sud",
+    "lore_desc": "Un site hypothétique des Titans, potentiellement lié à la création des races forgées.",
+    "image_url": "assets/forge_titans.jpg"
+  },
+  {
+    "nom": "Gnomeregan",
+    "categorie": "Technologie",
+    "top": 55.5,
+    "left": 49.0,
+    "position_approx": "Royaumes de l'Est Central",
+    "lore_desc": "La capitale souterraine des Gnomes, ravagée par les Troggs et contaminée par la peste radioactive.",
+    "image_url": "assets/gnomeregan.jpg"
+  }
+]
